@@ -4,13 +4,14 @@ A Brunch plugin to run command line scripts after Brunch compiles.
 
 Usage
 -----
-Add bellini to the plugins array in your brunch-config.coffee and add commands to the Bellini commands array. For example, you might want to do UI testing with CasperJS.
+Add bellini to your brunch-config.coffee and add commands in an array. For example, you might want to do UI testing with CasperJS and generate style guides with styledocco.
 ```coffeescript
+# See http://brunch.io/#documentation for brunch config docs
 exports.config =
-	# See http://brunch.io/#documentation for brunch config docs
 	plugins:
 		bellini: [
-			'casperjs casper.coffee'
+			'casperjs casper.coffee',
+			'styledocco -n "My Project" css'
 			]
 ```
 
@@ -22,7 +23,7 @@ Forked after-brunch 0.0.4
 
 Dependencies
 ------------
-CoffeeScript
+It is assumed you are using Node.js, Brunch, and CoffeeScript.
 
 Author Info
 -----------
