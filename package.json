@@ -1,26 +1,27 @@
 {
-  "name": "bellini-brunch",
-  "version": "0.0.5",
-  "description": "A Brunch plugin to run command line scripts after Brunch compiles.",
-  "main": "./lib/index",
-  "author": "Stacey Moore",
-  "license": "MIT",
-  "dependencies": {
-    "colors": "~0.6.2"
-  },
-  "scripts": {
-    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
-  },
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/staceymoore/bellini-brunch"
-  },
-  "keywords": [
-    "brunch",
-    "after",
-    "commands",
-    "post-compile"
-  ],
-  "devDependencies": {}
+	"name": "bellini-brunch",
+	"version": "0.1.0",
+	"description": "A Brunch plugin to run command line scripts after Brunch compiles.",
+	"main": "./lib/index",
+	"author": "Stacey Moore",
+	"license": "MIT",
+	"dependencies": {
+		"colors": "~0.6.2"
+	},
+	"scripts": {
+		"prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+	},
+	"readmeFilename": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/staceymoore/bellini-brunch"
+	},
+	"keywords": [
+		"brunch",
+		"after",
+		"commands",
+		"post-compile"
+	],
+	"devDependencies": {
+	}
 }

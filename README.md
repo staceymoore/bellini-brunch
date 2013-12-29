@@ -17,9 +17,10 @@ exports.config =
 
 Changelog
 ---------
-Added text styles and colors  
-Improved console notifications  
-Forked after-brunch 0.0.4
+###Version 0.1.0
+* Added text styles and colors  
+* Improved console notifications  
+* Forked after-brunch 0.0.4
 
 Dependencies
 ------------

@@ -9,7 +9,6 @@ module.exports = class Bellini
 		@commands = @config.plugins.bellini ? []
 
 	onCompile: (generatedFiles) ->
-
 		for command in @commands
 			console.log "BELLINI: Running command: '#{command}'"  .bold.grey
 			exec command, (error, stdout, stderr) ->
